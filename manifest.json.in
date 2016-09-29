@@ -1,0 +1,16 @@
+{
+    "name": "@APP_ID@",
+    "description": "description of TracCarClient",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "TracCarClient": {
+            "apparmor": "TracCarClient.apparmor",
+            "desktop":  "TracCarClient.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "David Kaplan <davidkiryat8@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.3-qml"
+}
+
